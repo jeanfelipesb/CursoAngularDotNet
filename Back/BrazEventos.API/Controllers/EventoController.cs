@@ -1,3 +1,5 @@
+using BrazEventos.API.Data;
+using BrazEventos.API.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BrazEventos.API.Controllers;
@@ -6,13 +8,24 @@ namespace BrazEventos.API.Controllers;
 [Route("api/[controller]")]
 public class EventoController : ControllerBase
 {
-    public EventoController()
+    private readonly DataContext _context;
+
+    public EventoController(DataContext context)
     {
+        _context = context;
     }
 
-    [HttpGet(Name = "GetEvento")]
-    public string Get()
+    [HttpGet]
+    public IEnumerable<Evento> Get()
     {
-        return "teste";
+        return _context.Eventos;
+    }
+
+    [HttpGet("{id}")]
+    public Evento GetById(int id)
+    {
+        return _context.Eventos.FirstOrDefault(
+            evento => evento.EventoID == id
+        );
     }
 }
