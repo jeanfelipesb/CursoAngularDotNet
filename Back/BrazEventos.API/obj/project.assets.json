@@ -669,6 +669,43 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "BrazEventos.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BrazEventos.Domain": "1.0.0",
+          "BrazEventos.Persistence": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BrazEventos.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BrazEventos.Application.dll": {}
+        }
+      },
+      "BrazEventos.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BrazEventos.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BrazEventos.Domain.dll": {}
+        }
+      },
+      "BrazEventos.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BrazEventos.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BrazEventos.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BrazEventos.Persistence.dll": {}
+        }
       }
     }
   },
@@ -1740,10 +1777,26 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "BrazEventos.Application/1.0.0": {
+      "type": "project",
+      "path": "../BrazEventos.Application/BrazEventos.Application.csproj",
+      "msbuildProject": "../BrazEventos.Application/BrazEventos.Application.csproj"
+    },
+    "BrazEventos.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BrazEventos.Domain/BrazEventos.Domain.csproj",
+      "msbuildProject": "../BrazEventos.Domain/BrazEventos.Domain.csproj"
+    },
+    "BrazEventos.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../BrazEventos.Persistence/BrazEventos.Persistence.csproj",
+      "msbuildProject": "../BrazEventos.Persistence/BrazEventos.Persistence.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "BrazEventos.Application >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.5",
       "Microsoft.EntityFrameworkCore >= 7.0.12",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.12",
@@ -1779,7 +1832,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Application\\BrazEventos.Application.csproj": {
+              "projectPath": "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Application\\BrazEventos.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

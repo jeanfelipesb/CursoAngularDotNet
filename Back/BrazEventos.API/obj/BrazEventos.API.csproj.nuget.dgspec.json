@@ -28,7 +28,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Application\\BrazEventos.Application.csproj": {
+                "projectPath": "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Application\\BrazEventos.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -85,6 +89,182 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Application\\BrazEventos.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Application\\BrazEventos.Application.csproj",
+        "projectName": "BrazEventos.Application",
+        "projectPath": "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Application\\BrazEventos.Application.csproj",
+        "packagesPath": "C:\\Users\\jean_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jean_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Domain\\BrazEventos.Domain.csproj": {
+                "projectPath": "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Domain\\BrazEventos.Domain.csproj"
+              },
+              "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Persistence\\BrazEventos.Persistence.csproj": {
+                "projectPath": "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Persistence\\BrazEventos.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Domain\\BrazEventos.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Domain\\BrazEventos.Domain.csproj",
+        "projectName": "BrazEventos.Domain",
+        "projectPath": "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Domain\\BrazEventos.Domain.csproj",
+        "packagesPath": "C:\\Users\\jean_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jean_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Persistence\\BrazEventos.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Persistence\\BrazEventos.Persistence.csproj",
+        "projectName": "BrazEventos.Persistence",
+        "projectPath": "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Persistence\\BrazEventos.Persistence.csproj",
+        "packagesPath": "C:\\Users\\jean_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jean_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Domain\\BrazEventos.Domain.csproj": {
+                "projectPath": "C:\\Users\\jean_\\Documents\\Projetos\\Programacao\\Curso donet e Angular\\Back\\BrazEventos.Domain\\BrazEventos.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

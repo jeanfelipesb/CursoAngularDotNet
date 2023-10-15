@@ -4,3 +4,10 @@
 /Back/BrazEventos.API/bin/Debug
 /Back/BrazEventos.API/BrazEnvetos.db-shm
 /Back/BrazEventos.API/BrazEnvetos.db-wal
+/Back/BrazEventos.Application/bin/Debug
+/Back/BrazEventos.Domain/bin/Debug
+/Back/BrazEventos.Application/obj/Debug
+/Back/BrazEventos.Domain/obj/Debug
+/Back/BrazEventos.Persistence/obj/Debug
+/Back/BrazEventos.Persistence/bin/Debug
+/Back/.vs
