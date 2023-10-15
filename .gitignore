@@ -2,3 +2,5 @@
 /Back/BrazEventos.API/obj/Debug
 /Back/BrazEventos.API/.vs
 /Back/BrazEventos.API/bin/Debug
+/Back/BrazEventos.API/BrazEnvetos.db-shm
+/Back/BrazEventos.API/BrazEnvetos.db-wal
